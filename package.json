@@ -1,0 +1,24 @@
+{
+  "name": "waffle",
+  "version": "0.0.1",
+  "description": "Mobx adapter for gun.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mochiapp/waffle.git"
+  },
+  "keywords": [
+    "gun.js",
+    "mobx",
+    "javascript"
+  ],
+  "author": "Jonathan Frazier, Robert Heessels",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mochiapp/waffle/issues"
+  },
+  "homepage": "https://github.com/mochiapp/waffle#readme"
+}
