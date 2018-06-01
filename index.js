@@ -1,2 +1,2 @@
-const GunStore = require('./src/gun-mobx')
+const GunStore = require('./lib/gun-mobx')
 module.exports = { GunStore }

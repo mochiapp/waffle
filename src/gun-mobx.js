@@ -174,6 +174,4 @@ class GunStore {
   }
 }
 
-module.exports = {
-  default: GunStore
-}
+module.exports = GunStore
