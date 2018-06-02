@@ -5,8 +5,9 @@
   "main": "index.js",
   "web": "waffle.min.js",
   "scripts": {
-    "compile": "babel -d lib/ src/",
-    "prepublish": "npm run compile",
+    "build:babel": "babel -d lib/ src/",
+    "prepublish": "npm run build:babel",
+    "fix": "standard --parser babel-eslint --fix src",
     "lint": "eslint --ext .js src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -23,12 +24,13 @@
     "babel-eslint": "^8.2.1",
     "babel-plugin-transform-decorators-legacy": "^1.3.4",
     "eslint": "^4.18.2",
-    "eslint-config-standard": "^11.0.0",
+    "eslint-config-standard": "11.0.0",
     "eslint-friendly-formatter": "^4.0.1",
     "eslint-loader": "^2.0.0",
-    "eslint-plugin-import": "^2.9.0",
-    "eslint-plugin-promise": "^3.7.0",
-    "eslint-plugin-standard": "^3.0.1"
+    "eslint-plugin-import": "2.12.0",
+    "eslint-plugin-node": "6.0.1",
+    "eslint-plugin-promise": "3.8.0",
+    "eslint-plugin-standard": "3.1.0"
   },
   "repository": {
     "type": "git",
