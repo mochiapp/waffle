@@ -1,5 +1,6 @@
-const Gun = require('gun')
+const Gun = require('gun/gun')
 require('gun/sea')
+// require('gun/timegraph')
 // require('gun/lib/time')
 const { extendObservable } = require('mobx')
 
